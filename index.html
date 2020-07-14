@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Plain Javascript</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .panel {
+            height: 100%;
+            width: 300px;
+            margin-bottom:20px;
+        }
+
+        .panel .panel-head {
+            padding:20px;
+            height: 20px;
+            background-color: #000;
+            color:#fff;
+            cursor:pointer;
+        }
+
+        .panel .panel-body {
+            padding:20px;
+            height: 100%;
+            color:yellow;
+            background-color: beige;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+          <div class="panel active">
+            <div class="panel-head">
+              + Lorem ipsum dolor sit?
+            </div>
+            <div class="panel-body" id="thisone">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid voluptate fugit quaerat non molestiae quo magni soluta minima corporis! Soluta, ipsa et.</p>
+              <p>Quos quibusdam, nesciunt totam ullam quasi neque!</p>
+            </div>
+          </div>
+          
+          <div class="panel">
+            <div class="panel-head">
+              + Lorem ipsum dolor sit?
+            </div>
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid voluptate fugit quaerat non molestiae quo magni soluta minima corporis! Soluta, ipsa et.</p>
+              <p>Quos quibusdam, nesciunt totam ullam quasi neque!</p>
+            </div>
+          </div>
+          
+          <div class="panel">
+            <div class="panel-head">
+              + Lorem ipsum dolor sit?
+            </div>
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid voluptate fugit quaerat non molestiae quo magni soluta minima corporis! Soluta, ipsa et.</p>
+              <p>Quos quibusdam, nesciunt totam ullam quasi neque!</p>
+            </div>
+          </div>
+      </div>
+
+    <script type="text/javascript" src="js.js"></script>
+
+</body>
+</html>
